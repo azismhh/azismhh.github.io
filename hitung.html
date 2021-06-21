@@ -1,0 +1,36 @@
+<?php 
+include "webcounter.php";
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aplikasi Menghitung Jumlah Kunjungan Dengan PHP dan TXT</title>
+    <style>
+        Body {
+         margin:0; 
+         padding:0;
+         font-family: verdana;
+         font-size: 12px;
+        }
+        .header {
+            color: #fff;
+            text-align: center;
+            background-color: #00A6BB;
+            line-height: 100px;
+        }
+        .welcome {
+            color:#2924F0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<h2 class="welcome">
+ Selamat Datang Anda Adalah Pengunjung<br>
+ <?php 
+ echo "Ke - $visitor";
+ ?>
+</h2>
+</body>
+</html>
